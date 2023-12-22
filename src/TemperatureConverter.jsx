@@ -36,7 +36,7 @@ const value = e.target.value;
 setKelvin(value);
 setCelsius(value === '' ? '' : (parseFloat(value) - 273.15).toFixed(2));
 setFahrenheit(value === '' ? '' : ((((parseFloat(value) - 273.15) * 9) / 5) + 32).toFixed(2));
-setRankine(value === '' ? '' : ((parseFloat(value) * 9 / 5) + 491.67).toFixed(2));
+setRankine(value === '' ? '' : ((parseFloat(value) + 459.67).toFixed(2));
 };
 
 const handleRankineChange = (e) => {
