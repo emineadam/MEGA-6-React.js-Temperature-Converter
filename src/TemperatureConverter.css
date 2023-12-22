@@ -1,0 +1,36 @@
+
+/* src/TemperatureConverter.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://dijital.ninja/wp-content/uploads/2021/01/pink-green-gradient-1920x1080_c.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+h2 {
+  color: #581032; 
+  font-size: 3em; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.637); /* Hafif bir gölge için */
+}
+
+label {
+  
+  color: #581032; 
+  font-size: 1.1em; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315); /* Hafif bir gölge için */
+}
+
+div {
+  text-align: center;
+  margin-top: 25px;
+  
+}
+
+input {
+  margin: 10px;
+}
